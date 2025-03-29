@@ -17,7 +17,7 @@ export default function Home() {
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
+              src/app/page.js
             </code>
             .
           </li>
@@ -53,7 +53,6 @@ export default function Home() {
         </div>
         <div>
           <Profile />
-          <h1>And Fuck Off</h1>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
