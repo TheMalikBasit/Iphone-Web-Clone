@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+    /* To alter screens sizes use --breakpoint-sm: custom number, --breakpoint-md: custom number, --breakpoint-lg: custom number  */
+    --color-primary: #4a90e2;
+    --color-secondary: #50e3c2;
+    --color-accent: #9013fe;
+    --color-magenta: #d0021b;
+}
+
