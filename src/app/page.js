@@ -13,7 +13,7 @@ export default function Main() {
       <footer className='flex flex-col items-center justify-center w-full p-20'>
         <p className='text-md sm:text-left font-[family-name:var(--font-geist-mono)] text-primary p-5'>Footer</p>
         <div className='flex flex-row items-center justify-between w-full'>
-          <p className='text-md sm:text-left font-[family-name:var(--font-geist-mono)] text-secondary'>I should be on left</p>
+          <p className='text-md sm:text-left font-[family-name:var(--font-geist-mono)] text-gray'>I should be on left</p>
           <p className='text-md sm:text-left font-[family-name:var(--font-geist-mono)] text-secondary'>I should be on right</p>
         </div>
       </footer>
