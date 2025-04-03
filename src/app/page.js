@@ -3,7 +3,7 @@
 import Hero from "@/Components/Hero"
 import Highlights from "@/Components/Highlights"
 import Navbar from "@/Components/Navbar"
-
+import Profile from "@/Components/Profile"
 export default function Main() {
   return (
     <div className="flex flex-col justify-center items-center">
@@ -11,6 +11,7 @@ export default function Main() {
         <Navbar />
         <Hero />
         <Highlights />
+        <Profile />
       </main>
     </div>
   )

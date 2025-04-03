@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-    /* To alter screens sizes use --breakpoint-sm: custom number, --breakpoint-md: custom number, --breakpoint-lg: custom number  */
-    --color-primary: #4a90e2;
-    --color-secondary: #50e3c2;
-    --color-accent: #9013fe;
-    --color-magenta: #d0021b;
-    --color-blue: #2997FF;
-    --color-zinc: #101010;
-    --color-gray: #86868b;
-    --color-gray-100: "#94928d";
-    --color-gray-200: "#afafaf";
-    --color-gray-300: "#42424570";
+  /* To alter screens sizes use --breakpoint-sm: custom number, --breakpoint-md: custom number, --breakpoint-lg: custom number  */
+  --color-primary: #4a90e2;
+  --color-secondary: #50e3c2;
+  --color-accent: #9013fe;
+  --color-magenta: #d0021b;
+  --color-blue: #2997FF;
+  --color-zinc: #101010;
+  --color-gray: #86868b;
+  --color-gray-100: "#94928d";
+  --color-gray-200: "#afafaf";
+  --color-gray-300: "#42424570";
 }
 
 
@@ -71,7 +71,8 @@ canvas {
   border-color: var(--color-blue);
 }
 
-.color-container, .size-btn-container {
+.color-container,
+.size-btn-container {
   display: flex;
   align-items: center;
   justify-content: center;

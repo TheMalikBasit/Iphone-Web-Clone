@@ -1,0 +1,17 @@
+This file would be a route file if it was a js file
+
+To perform routing there are 2 approaches.
+
+One of the approach is to have a route file 
+with in the app directory which in that case is this file
+
+This is the best approach but it has a con
+
+NOTE: you cannot have a multile route files within the Project
+
+Error: If you have muiltiple route files within the project you may encouter wrong results for what
+route you were expecting as a prefered route. Because next js
+
+Recomendation:  Use api file within your app directory and keep all your 
+                Backend related logic and api endpoints in there to keep
+                you code clean, understandable and less complex.

@@ -2,13 +2,12 @@
 // rather than relying on client-side JavaScript to render the page.
 // This can improve performance and SEO, as search engines can crawl the fully rendered HTML.
 
-async function page ({ params} ) {
+async function page({ params }) {
     const response = await fetch(`https://jsonplaceholder.typicode.com/users/${params.id}`,
-        { cache: 'no-store'} // no-store means that the data will not be cached and will be fetched every time the page is loaded
+        { cache: 'no-store' } // no-store means that the data will not be cached and will be fetched every time the page is loaded
     );
-}
 
-const data = await response.json();
+    const data = await response.json();
     return (
         <div className="text-center text-2xl font-bold mt-10">
             <h1>{data.name}</h1>
@@ -16,4 +15,5 @@ const data = await response.json();
             <p>{data.phone}</p>
         </div>
     )
+}
 export default page;
