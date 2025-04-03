@@ -1,0 +1,10 @@
+Next js supports following HTTP methods
+
+1: GET 
+2: post
+3: DELETE
+4: PUT
+5: PATCH
+6: HEAD
+7: OPTIONS
+

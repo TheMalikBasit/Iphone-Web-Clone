@@ -1,2 +1,5 @@
 This is one of the methods to creeate routing system
 Filed based routing system is called
+
+You create a router.js file within the api/user directory and handle all pages routes within
+this files
